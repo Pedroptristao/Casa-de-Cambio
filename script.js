@@ -13,7 +13,7 @@ const renderRates = (currency, rate) => {
   const li = document.createElement('li');
   li.innerText = `${currency}: ${rate.toFixed(3)}`;
   listaCambios.appendChild(li);
-}
+};
 
 botaoInput.addEventListener('click', () => {
   while (listaCambios.firstChild) {
@@ -21,3 +21,8 @@ botaoInput.addEventListener('click', () => {
   }
   fetchCurrency(inputCambio.value);
 });
+
+const renderBase = ({ base: currency }) => {
+  const currencyTitle = document.querySelector('#base');
+  currencyTitle.innerText = `Valores referentes a 1${currency}`;
+};

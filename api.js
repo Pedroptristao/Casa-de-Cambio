@@ -3,5 +3,6 @@ const fetchCurrency = async (currency) => {
     const data = await result.json();
     //console.log(data);
     handleRates(data);
+    renderBase(data);
   };
   

@@ -1,9 +1,9 @@
 .input {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  margin-left: 42.5%;
-  margin-right: 50%;
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
 }
 h1 {
   text-align: center;
@@ -14,7 +14,6 @@ h1 {
 }
 #lista {
   display: flex;
-  position: absolute;
-  margin-top: 5%;
+  margin-top: -3%;
   margin-left: 42.5%;
 }
