@@ -1,0 +1,20 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 42.5%;
+  margin-right: 50%;
+}
+h1 {
+  text-align: center;
+}
+#lista-cambio {
+  display: flex;
+  flex-direction: column;
+}
+#lista {
+  display: flex;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 42.5%;
+}
